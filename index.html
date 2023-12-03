@@ -11,11 +11,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
   body {
+    margin: 2%;
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
   }
-  p {font-size: 16px;}
+  p {
+    font-size: 16px;
+    padding-left: 10%;
+    padding-right: 10%;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
     background-color: #1abc9c; /* Green */
@@ -49,9 +53,10 @@
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
-  .imgcontainer{
-    margin-left:auto;
-    margin-right:auto;
+  .scroll-img{
+    display: inline;
+    width: 70%;
+    max-height: 970px;
   }
   </style>
 </head>
@@ -84,19 +89,34 @@
   <p>I love boardgames, gaming, cooking and baking! Curries and tarts are my favourite thing to make. I am also the "boardgames custodian" for Cardiff Regular and Irregular
     tabletop society. I happily host 2 boardgames events a week and have also organised the boardgame betting tournament for Cardiff Universities Nerd Varsity.
   </p>
-  <table class="imgcontainer"><th> <img src="assets/stage 1.jpg" class="img-fluid" style="display:inline" alt="frame for treehouse" width="350" height="350">
-  </th><th> <img src="assets/ongoing.jpg" class="img-fluid" style="display:inline" alt="treehouse mostly complete" width="350" height="350">
-  </th><th> <img src="assets/window.jpg" class="img-fluid" style="display:inline" alt="treehouse window view" width="350" height="350">
-  </th></table>
+ 
+ 
+        <img src="assets/stage 1.jpg" class="scroll-img"  alt="frame for treehouse">
+      
+       
+        <img src="assets/ongoing.jpg" class="scroll-img"   alt="treehouse mostly complete">
+      
+       
+        <img src="assets/window.jpg" class="scroll-img"  alt="treehouse window view">
+      
+    
+  
   <p>This is a construction that me and my dad have been working on at home. It is still under construction but it has been a great project. if it isnt visible, it is a treehouse
     yes it is a little large, and also unfinished, but it is something that i am proud of having done. 
   </p>
-  <table class="imgcontainer"><th> <img src="assets/chilli.png" class="img-fluid" style="display:inline" alt="chilli con carne" width="350" height="350">
-  </th><th> <img src="assets/curry.jpg" class="img-fluid" style="display:inline" alt="curry" width="350" height="350">
-  </th><th> <img src="assets/tart.jpg" class="img-fluid" style="display:inline" alt="strawberry tart" width="350" height="350">
-  </th></table>
+
+  <img src="assets/chilli.png" class="scroll-img"  alt="chilli con carne">
+      
+       
+  <img src="assets/curry.jpg" class="scroll-img"   alt="curry">
+
+ 
+  <img src="assets/tart.jpg" class="scroll-img"  alt="strawberry tart">
+
+
+
   <p>Above are some meals i am proud of and a very lovely strawberry tart. just a few examples of all the lovely food i like to make (i know a little self inflating).</p>
-  <img src="assets/ducks.jpg" class="img-fluid" style="display:inline" alt="me feeding ducks" width="350" height="350">
+  <img src="assets/ducks.jpg" class="scroll-img" alt="me feeding ducks">
   <p>me feeding the ducks and geese.</p>
 </div>
 
@@ -109,9 +129,12 @@
     and again<a href="https://www.youtube.com/watch?v=EyhgTqZunRs"> here</a>, if you do watch, these are from early in development, the map is also intentionally made to look jarring, for 
     comedic effect, plus it is also meant to be "swamplike" and i think it somewhat achieves the effect.
   </p>
-  <table class="imgcontainer"><th> <img src="assets/frog_p1_right.png" class="img-fluid" style="display:inline" alt="player 1 frog" width="100" height="100">
-  </th><th><th> <img src="assets/frog_p2_left.png" class="img-fluid" style="display:inline" alt="player 2 frog" width="100" height="100">
-  </th></table>
+  
+  <img src="assets/frog_p1_right.png" class="scroll-img" style="width: 300px; height: 300px;"  alt="player 1 frog">
+      
+       
+  <img src="assets/frog_p2_left.png" class="scroll-img" style="width: 300px; height: 300px;  alt="player 2 frog">
+
   <p>Above are the two frogs, they hate each other. Another project i want to talk about is my Sudoku solver. it is a brute force recusie solver, with a bespoke but fairly
     haphazardly assembled verifier function. The solver is fairly simple, but working in a recursive manner is particuarly difficult to think about. which made this quite a challenge
     for me. Having said that, i do believe that i learned alot from writing it. I also enjoyed making the verifier. it works by row wise checking the sudoku for errors, it then turns the matrix
