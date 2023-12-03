@@ -1,7 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>smuggzze</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .imgcontainer{
+    margin-left:auto;
+    margin-right:auto;
+  }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Paige Ireland</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="assets/paigenana.png" class="img-responsive img-circle margin" style="display:inline" alt="Paigenana" width="350" height="350">
+  <p>I love boardgames, gaming, cooking and baking! Curries and tarts are my favourite thing to make. I am also the "boardgames custodian" for Cardiff Regular and Irregular
+    tabletop society. I happily host 2 boardgames events a week and have also organised the boardgame betting tournament for Cardiff Universities Nerd Varsity.
+  </p>
+  <table class="imgcontainer"><th> <img src="assets/stage 1.jpg" class="img-fluid" style="display:inline" alt="frame for treehouse" width="350" height="350">
+  </th><th> <img src="assets/ongoing.jpg" class="img-fluid" style="display:inline" alt="treehouse mostly complete" width="350" height="350">
+  </th><th> <img src="assets/window.jpg" class="img-fluid" style="display:inline" alt="treehouse window view" width="350" height="350">
+  </th></table>
+  <p>This is a construction that me and my dad have been working on at home. It is still under construction but it has been a great project. if it isnt visible, it is a treehouse
+    yes it is a little large, and also unfinished, but it is something that i am proud of having done. 
+  </p>
+  <table class="imgcontainer"><th> <img src="assets/chilli.png" class="img-fluid" style="display:inline" alt="chilli con carne" width="350" height="350">
+  </th><th> <img src="assets/curry.jpg" class="img-fluid" style="display:inline" alt="curry" width="350" height="350">
+  </th><th> <img src="assets/tart.jpg" class="img-fluid" style="display:inline" alt="strawberry tart" width="350" height="350">
+  </th></table>
+  <p>Above are some meals i am proud of and a very lovely strawberry tart. just a few examples of all the lovely food i like to make (i know a little self inflating).</p>
+  <img src="assets/ducks.jpg" class="img-fluid" style="display:inline" alt="me feeding ducks" width="350" height="350">
+  <p>me feeding the ducks and geese.</p>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>I am a nerd at heart, i love anything to do with computers especially programming (and gaming). one of my favourite projects i have done is my game "froggy fighters".
+    it is a two player versus fighting game with frogs. players hit eachother with their tongues to damage eachother and try to avoid their opponets tongue. playtesters enjoyed the game,
+    and it won me the Ludlow college best computer science project of 2022, which i was and still am ery proud about. Below are some images of the frogs, <a href="https://www.youtube.com/watch?v=NORgkg17OCw">linked is a video of the game</a>
+    and again<a href="https://www.youtube.com/watch?v=EyhgTqZunRs"> here</a>, if you do watch, these are from early in development, the map is also intentionally made to look jarring, for 
+    comedic effect, plus it is also meant to be "swamplike" and i think it somewhat achieves the effect.
+  </p>
+  <table class="imgcontainer"><th> <img src="assets/frog_p1_right.png" class="img-fluid" style="display:inline" alt="player 1 frog" width="100" height="100">
+  </th><th><th> <img src="assets/frog_p2_left.png" class="img-fluid" style="display:inline" alt="player 2 frog" width="100" height="100">
+  </th></table>
+  <p>Above are the two frogs, they hate each other. Another project i want to talk about is my Sudoku solver. it is a brute force recusie solver, with a bespoke but fairly
+    haphazardly assembled verifier function. The solver is fairly simple, but working in a recursive manner is particuarly difficult to think about. which made this quite a challenge
+    for me. Having said that, i do believe that i learned alot from writing it. I also enjoyed making the verifier. it works by row wise checking the sudoku for errors, it then turns the matrix
+    of the board into a column wise matrix, and a matrix of sqaures - the squares being the 3 x 3 sudoku squares. then performs the same verification algorithm for these, to fully verify the board.
+    if the checker reports an issue in the board, the solver changes the numbers to match until the right ones are found.
+  </p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Details</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p> <a href="https://github.com/smuggzze">Github</a></p>
+      <img src="assets/git.png" class="img-responsive margin" style="width:100%" width="350" height="350" alt="git">
+    </div>
+    <div class="col-sm-4"> 
+      <p><a href="mailto:irelandpaige11@gmail.com"> Email: irelandpaige11@gmail.com</a></p>
+      <img src="assets/download.png" class="img-responsive margin" style="width:100%" width="350" height="350" alt="Email">
+    </div>
+    <div class="col-sm-4"> 
+      <p>phone: 07825 745 415</p>
+      <img src="assets/phone.png" class="img-responsive margin" style="width:100%" width="350" height="350" alt="phone">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>thanks for reading :D</a></p> 
+</footer>
+
 </body>
 </html>
