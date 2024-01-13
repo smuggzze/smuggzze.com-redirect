@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>smuggzze</title>
-  <link rel="icon" type="image/png" href="assets/paigenana.png">
+  <link rel="icon" type="image/png" href="assets/frog_p1_right.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,59 +10,90 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  body {
-    margin: 2%;
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
-  p {
-    font-size: 16px;
-    padding-left: 10%;
-    padding-right: 10%;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
-  }
-  .scroll-img{
-    display: inline;
-    width: 70%;
-    max-height: 970px;
-  }
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #2c3e50; /* Dark Grayish Blue */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2px;
+      background-color: #f0f3f4; /* Light Grayish Blue */
+    }
+  
+    .bg-1 {
+      background-color: #306367; /* Soft Orange */
+      color: #ffffff;
+    }
+  
+    .bg-2 {
+      background-color: lightgray; /* Soft Purple */
+      color: #ffffff;
+    }
+  
+    .bg-3 {
+      background-color: #638465; /* Soft Red */
+      color: #ffffff;
+    }
+  
+    .bg-4 {
+      background-color: lightgray; /* Soft Green */
+      color: #fff;
+    }
+  
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .scroll-img {
+      width: 550px;
+      height: 550px;
+      margin: 20px;
+      flex: 0 0 auto;
+    }
+  
+    .images-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    p {
+      max-width: 800px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      background-color: #C9AB93; /* White */
+      font-size: 16px;
+      resize: none;
+      margin-bottom: 20px;
+    }
   </style>
+  
+
 </head>
 <body>
 
-<!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -85,11 +116,11 @@
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
   <h3 class="margin">Who Am I?</h3>
-  <img src="assets/paigenana.png" class="img-responsive img-circle margin" style="display:inline" alt="Paigenana" width="350" height="350">
+  <img src="assets/me.png" class="img-responsive img-circle margin" style="display:inline" alt="Paigenana" width="350" height="350">
   <p>I love boardgames, gaming, cooking and baking! Curries and tarts are my favourite thing to make. I am also the "boardgames custodian" for Cardiff Regular and Irregular
     tabletop society. I happily host 2 boardgames events a week and have also organised the boardgame betting tournament for Cardiff Universities Nerd Varsity.
   </p>
- 
+  <div class="images-container">
  
         <img src="assets/stage 1.jpg" class="scroll-img"  alt="frame for treehouse">
       
@@ -99,11 +130,12 @@
        
         <img src="assets/window.jpg" class="scroll-img"  alt="treehouse window view">
       
-    
+  </div>  
   
   <p>This is a construction that me and my dad have been working on at home. It is still under construction but it has been a great project. if it isnt visible, it is a treehouse
     yes it is a little large, and also unfinished, but it is something that i am proud of having done. 
   </p>
+  <div class="images-container">
 
   <img src="assets/chilli.png" class="scroll-img"  alt="chilli con carne">
       
@@ -112,7 +144,7 @@
 
  
   <img src="assets/tart.jpg" class="scroll-img"  alt="strawberry tart">
-
+  </div>
 
 
   <p>Above are some meals i am proud of and a very lovely strawberry tart. just a few examples of all the lovely food i like to make (i know a little self inflating).</p>
@@ -129,12 +161,13 @@
     and again<a href="https://www.youtube.com/watch?v=EyhgTqZunRs"> here</a>, if you do watch, these are from early in development, the map is also intentionally made to look jarring, for 
     comedic effect, plus it is also meant to be "swamplike" and i think it somewhat achieves the effect.
   </p>
-  
+  <div class="images-container">
+
   <img src="assets/frog_p1_right.png" class="scroll-img" style="width: 300px; height: 300px;"  alt="player 1 frog">
       
        
-  <img src="assets/frog_p2_left.png" class="scroll-img" style="width: 300px; height: 300px;  alt="player 2 frog">
-
+  <img src="assets/frog_p2_left.png" class="scroll-img" style="width: 300px; height: 300px;"  alt="player 2 frog">
+  </div>
   <p>Above are the two frogs, they hate each other. Another project i want to talk about is my Sudoku solver. it is a brute force recusie solver, with a bespoke but fairly
     haphazardly assembled verifier function. The solver is fairly simple, but working in a recursive manner is particuarly difficult to think about. which made this quite a challenge
     for me. Having said that, i do believe that i learned alot from writing it. I also enjoyed making the verifier. it works by row wise checking the sudoku for errors, it then turns the matrix
@@ -149,15 +182,15 @@
   <div class="row">
     <div class="col-sm-4">
       <p> <a href="https://github.com/smuggzze">Github</a></p>
-      <img src="assets/git.png" class="img-responsive margin" style="width:100%" alt="git">
-    </div>
-    <div class="col-sm-4"> 
-      <p><a href="mailto:irelandpaige11@gmail.com"> Email: irelandpaige11@gmail.com</a></p>
-      <img src="assets/download.png" class="img-responsive margin" style="width:100%" alt="Email">
+      <a href="https://github.com/smuggzze"><img src="assets/git.png" class="img-responsive margin" style="width:100%" alt="git"></a>
     </div>
     <div class="col-sm-4"> 
       <p>phone: 07825 745 415</p>
       <img src="assets/phone.png" class="img-responsive margin" style="width:100%" alt="phone">
+    </div>
+    <div class="col-sm-4"> 
+      <p><a href="mailto:irelandpaige11@gmail.com"> Email: irelandpaige11@gmail.com</a></p>
+      <a href="mailto:irelandpaige11@gmail.com"><img src="assets/download.png" class="img-responsive margin" style="width:100%" alt="Email"></a>
     </div>
   </div>
 </div>
